@@ -7,7 +7,7 @@ Set environment variables in attributes/env_vars.rb
   
   Example:
   
-  ``
+  ```
   env_vars( 
       [{:RUBY_HEAP_MIN_SLOTS => "10000"},
        {:RUBY_HEAP_SLOTS_INCREMENT => "10000"},
@@ -15,4 +15,4 @@ Set environment variables in attributes/env_vars.rb
        {:RUBY_GC_MALLOC_LIMIT => "8000000"},
        {:RUBY_HEAP_FREE_MIN => "4096"}]
   )
-  ``
+  ```
