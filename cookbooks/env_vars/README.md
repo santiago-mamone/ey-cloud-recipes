@@ -1,7 +1,7 @@
 Environment Variables for Cloud
 -------------------------------
 
-This cookbook allows you to set environment variables for any application server that sources /data/<app>/shared/env.custom.  If Psasenger is used, a Ruby wrapper script is written out and the passenger_ruby directive is added in the Nginx configuration.  This script just sources the env.custom file and calls Ruby.
+This cookbook allows you to set environment variables for any application server that sources /data/INSERT_APP_NAME/shared/env.custom, this includes Unicorn and PHP-FPM.  If Passenger is used, a Ruby wrapper script is created and the passenger_ruby directive is added in the Nginx configuration.  This script just sources the env.custom file and calls Ruby.
 
 Set environment variables in attributes/env_vars.rb
   
